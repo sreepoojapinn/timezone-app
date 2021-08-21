@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2,
+    "name" : "TimeZone/App Finder",
+    "version" : "1.0.0",
+    "description" : "Extention which helps you to find time and other websites",
+    "icons" : {
+        "128" : "clock.png"
+    },
+    "browser_action" : {
+        "default_title" : "TimeZone/App Finder",
+        "default_popup" : "index.html",
+        "icon" : "clock.png"
+    },
+    "permissions" :["activeTab"],
+    "background" : {
+        "scripts" : ["app.js"]
+    }
+}
